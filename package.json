@@ -1,5 +1,5 @@
 {
-  "name": "react-pwa",
+  "name": "allg",
   "version": "2.1.4",
   "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
   "scripts": {
@@ -9,20 +9,15 @@
     "prepare": "npm run snyk-protect"
   },
   "author": {
-    "name": "Atyantik Technologies",
-    "email": "admin@atyantik.com",
-    "url": "https://www.atyantik.com/"
+    "name": "Tommy Mitchell",
+    "email": "mitchelltomtom@gmail.com",
+    "url": "https://www.allg.ie/"
   },
   "contributors": [
     {
-      "name": "Tirth Bodawala",
-      "email": "tirthbodawala@atyantik.com",
-      "url": "https://www.atyantik.com/"
-    },
-    {
-      "name": "Yash Thakur",
-      "email": "thakur.yash514@gmail.com",
-      "url": "http://yashthakur.in/"
+      "name": "Tommy Mitchell",
+      "email": "mitchelltomtom@gmail.com",
+      "url": "https://www.allg.ie/"
     }
   ],
   "license": "MIT",
@@ -34,10 +29,11 @@
     "bulma": "^0.7.2",
     "prop-types": "^15.6.2",
     "react": "^16.6.0",
+    "react-https-redirect": "^1.0.11",
     "react-router-config": "^4.4.0-beta.1",
     "react-router-dom": "^4.3.1",
-    "universal-fetch": "^1.0.0",
-    "snyk": "^1.105.0"
+    "snyk": "^1.105.0",
+    "universal-fetch": "^1.0.0"
   },
   "snyk": true
 }

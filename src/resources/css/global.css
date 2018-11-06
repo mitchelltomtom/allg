@@ -19,3 +19,10 @@
 .skeleton-blink article.header, .skeleton-blink article.footer {
   min-height: 70px;
 }
+
+.home-logo-container img {
+    width: auto;
+    float: left;
+    height: 5em;
+    padding-right: 1em;
+}

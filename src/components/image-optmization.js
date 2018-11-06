@@ -9,61 +9,15 @@ export default () => {
   return (
     <GuestLayout>
       <div className="container p-t-xl">
-        <h1 className="title">Optimizing user image experience to the best possible level</h1>
+        <h1 className="title">Sample image page</h1>
         <p>
-          The original size of the image below is
-          {' '}
-          <code>216.53 kb</code>
-          {' '}
-          You may check the repo. But with implementation of
-          {' '}
-          <strong>@pawjs/image-optimizer</strong>
-          {' '}
-          we were able to reduce the size of image by
-          {' '}
-          <strong>57%</strong>
-          . Thus making the final size to just 91.2KB
+          Some pets innit...
         </p>
         <img alt="Cat & Dog Sleeping" src={CatDog} />
         <hr />
-        <h2 className="title">Atyantik (ultimate) Optimization</h2>
+        <h2 className="title">Lazy loading</h2>
         <div className="content">
-          Well the above was not enough for us and thus we wanted
-          {' '}
-          more light weight image with undetectable quality loss!
-          {' '}
-          Below is the set of functionality we were looking at:
-          <ol>
-            <li>Best Auto Image optimization irrespective of its original size</li>
-            <li>
-              WebP Image format for latest browsers and fallback png/jpeg
-              {' '}
-              image for unsupported browsers.
-            </li>
-            <li>
-              Different Images depending on the size of screen. Well that is very important,
-              {' '}
-              We don&quot;t want any user to download large images for mobile devices!
-               Thus implementing srcset.
-            </li>
-            <li>
-              Why load image instantaneously?
-              {' '}
-              If the SEO bots can wait for image to load, why not users as well?
-               Thus implementing Lazy image loading.
-            </li>
-          </ol>
-
-          <blockquote>
-            <p>
-              To fulfill such complex requirement with simple code we created
-              {' '}
-              <code>@pawjs/srcset, @pawjs/image-optimizer</code>
-            </p>
-          </blockquote>
-          <div className="is-medium">
-            <h3>Check below!</h3>
-          </div>
+          Lazy pets innit...
         </div>
         <Picture alt="Cat & Dog" image={CatDogSrcset} />
       </div>

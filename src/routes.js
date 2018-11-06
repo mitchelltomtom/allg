@@ -6,16 +6,17 @@ export default class Routes {
   // eslint-disable-next-line
   apply(routeHandler) {
     routeHandler.setPwaSchema({
-      name: 'ReactPWA',
-      short_name: 'ReactPWA',
+      name: 'allG',
+      short_name: 'allG',
     });
     routeHandler.setDefaultSeoSchema({
-      title: 'ReactPWA',
+      title: 'allG',
     });
 
     const routes = [
       ...GuestRoutes,
       ...AuthRoutes,
+      ...SplashScreen,
       ...SplashScreen,
     ];
 
